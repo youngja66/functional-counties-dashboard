@@ -1,41 +1,26 @@
-# 🏛️ US Counties Analytics Dashboard
+# 🗺️ US Counties Analytics Dashboard
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR_USERNAME/functional-counties-dashboard/HEAD?urlpath=voila%2Frender%2Fcounties_dashboard.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR_USERNAME/functional-counties-dashboard/HEAD?filepath=dashboard.ipynb)
 
-**Fully functional regional analytics dashboard with real US Counties data and comprehensive synthetic demographics.**
+Interactive regional analytics dashboard with real US counties data.
 
-## 🌟 Key Features
+## ✨ Features
 
-### ✅ **Real Data Integration**
-- **3,000+ US Counties** from Census Bureau TIGER/Line shapefiles
-- **24 months** of synthetic time series data
-- **30+ demographic & economic metrics** with realistic patterns
-- **State-level filtering** with dynamic county updates
-
-### ✅ **Advanced Analytics**
-- **Interactive choropleth mapping** with Folium
-- **Time series analysis** with trend visualization
-- **Statistical distributions** and correlations
-- **Regional comparisons** and rankings
-- **Real-time filtering** and data updates
-
-### ✅ **Professional Interface**
-- **Clean, minimal design** with monotone color scheme
-- **Government-grade styling** suitable for official use
-- **Responsive layout** for desktop, tablet, mobile
-- **High-performance rendering** for large datasets
+- **Real US Counties Data** - Downloads from Census Bureau or uses sample
+- **Comprehensive Metrics** - 25+ demographic and economic indicators  
+- **Interactive Mapping** - Choropleth visualization with clean tooltips
+- **Multiple Views** - Map, trends, distribution, comparison charts
+- **Clean Design** - Minimal, modern interface
+- **State Filtering** - Dynamic county updates by state selection
 
 ## 🚀 Quick Start
 
-### Option 1: Clean Dashboard (Recommended)
-**Click the Binder badge above** for instant access to the full dashboard.
+**Option 1: Binder (Recommended)**
+Click the badge above to launch instantly in your browser.
 
-### Option 2: Jupyter Notebook
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR_USERNAME/functional-counties-dashboard/HEAD?filepath=counties_dashboard.ipynb)
-
-### Option 3: Local Installation
+**Option 2: Local Setup**
 ```bash
 git clone https://github.com/YOUR_USERNAME/functional-counties-dashboard.git
 cd functional-counties-dashboard
 pip install -r requirements.txt
-voila counties_dashboard.ipynb --template=material
+jupyter notebook dashboard.ipynb
